@@ -8,7 +8,7 @@ DB_CONFIG = {
     'host': 'localhost',
     'port': '5432'
 }
-CSV_FILE_PATH = r'C:\Users\shara\pythonstart\freshstart.py\habitable_planets.csv'  
+CSV_FILE_PATH = r'C:\Users\shara\OneDrive\Desktop\NASA-SPACE-DATA-ANALYTICS\star_planet1.csv'
 def get_db_connection():
     """Establishes and returns a connection to the PostgreSQL database."""
     try:

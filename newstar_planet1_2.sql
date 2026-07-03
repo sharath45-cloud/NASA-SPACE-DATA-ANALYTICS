@@ -62,3 +62,5 @@ ALTER TABLE IF EXISTS public.newstar_planet1_2
     OWNER to postgres;
 
 select*from  public.newstar_planet1_2;
+
+select*
