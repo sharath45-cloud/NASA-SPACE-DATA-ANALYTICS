@@ -11,9 +11,9 @@ def generate_database_chart():
             password="152911",       
             host="127.0.0.1",
             port="5432",
-            database="newstar_planet1_2"   
+            database="sharath"   
         )
-        query = "SELECT planet_status, planet_size_earths FROM star_planet1;"
+        query = "SELECT planet_status, planet_size_earths FROM star_planet_data;"
         df = pd.read_sql_query(query, connection)
         print("[INFO] Data successfully fetched from PostgreSQL database.")
         df['planet_size_earths'] = pd.to_numeric(df['planet_size_earths'], errors='coerce')
