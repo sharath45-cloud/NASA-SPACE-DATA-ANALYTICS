@@ -5,4 +5,3 @@
 * **Language:** Python (Jupyter Notebooks)
 * **Database:** PostgreSQL
 * **BI Tool:** Power BI
-*
